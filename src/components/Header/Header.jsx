@@ -1,11 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a href="/Home" className="navbar-brand">
+      <NavLink to="/" className="navbar-brand">
         Neil Gandhi
-      </a>
+      </NavLink>
 
       <button className="navbar-toggler" aria-label="Toggle navigation">
         <span
@@ -17,19 +18,27 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="navbarMenu">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a href="/Contact" className="nav-link">
+            <NavLink
+              to="/contact"
+              className="nav-link"
+              activeClassName="active"
+            >
               Contact
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a href="/Portfolio" className="nav-link">
+            <NavLink
+              to="/portfolio"
+              className="nav-link"
+              activeClassName="active"
+            >
               Portfolio
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a href="/About" className="nav-link active">
+            <NavLink to="/about" className="nav-link" activeClassName="active">
               About
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>
