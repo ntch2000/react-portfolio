@@ -1,11 +1,9 @@
+import Home from "./containers/Home/Home";
+import About from "./containers/About/About";
+import Portfolio from "./containers/Portfolio/Portfolio";
+
 function App() {
-  return (
-    <div className="App">
-      <h1>
-        <i className="fas fa-power-off"></i> My Portfolio
-      </h1>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
