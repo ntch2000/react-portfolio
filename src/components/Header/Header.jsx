@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a href="index.html" className="navbar-brand">
+      <a href="/Home" className="navbar-brand">
         Neil Gandhi
       </a>
 
@@ -17,17 +17,17 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="navbarMenu">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a href="contact.html" className="nav-link">
+            <a href="/Contact" className="nav-link">
               Contact
             </a>
           </li>
           <li className="nav-item">
-            <a href="portfolio.html" className="nav-link">
+            <a href="/Portfolio" className="nav-link">
               Portfolio
             </a>
           </li>
           <li className="nav-item">
-            <a href="about.html" className="nav-link active">
+            <a href="/About" className="nav-link active">
               About
             </a>
           </li>
