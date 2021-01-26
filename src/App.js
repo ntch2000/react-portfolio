@@ -3,6 +3,7 @@ import About from "./containers/About/About";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import Contact from "./containers/Contact/Contact";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/" component={Home} />
       </Switch>
+      <Footer />
     </Router>
   );
 }
