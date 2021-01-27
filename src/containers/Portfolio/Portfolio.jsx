@@ -4,17 +4,17 @@ import Project from "../../components/Project/Project";
 const Portfolio = () => {
   return (
     <>
-      <main class="container py-5">
-        <div class="row mt-4 px-3 px-md-0">
-          <div class="col-12 bg-dark mx-md-3 px-4" id="portfolio">
-            <header class="row">
-              <div class="col-12">
-                <h1 class="border-bottom" id="title">
+      <main className="container py-5">
+        <div className="row mt-4 px-3 px-md-0">
+          <div className="col-12 bg-dark mx-md-3 px-4" id="portfolio">
+            <header className="row">
+              <div className="col-12">
+                <h1 className="border-bottom" id="title">
                   Portfolio
                 </h1>
               </div>
             </header>
-            <section class="row card-group py-4">
+            <section className="row card-group py-4">
               <Project
                 title={"Project 1 - SearchU"}
                 description={
