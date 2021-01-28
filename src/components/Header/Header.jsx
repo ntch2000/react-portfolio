@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <NavLink to="/" className="navbar-brand pl-5">
+      <NavLink to="/" className="navbar-brand ps-4">
         Neil Gandhi
       </NavLink>
 
@@ -16,7 +16,7 @@ const Header = () => {
         ></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarMenu">
-        <ul className="navbar-nav ml-auto">
+        <ul className="navbar-nav ms-auto">
           <li className="nav-item">
             <NavLink
               to="/contact"
