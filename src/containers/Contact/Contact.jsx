@@ -17,26 +17,26 @@ const Contact = () => {
             <div className="col-12 pb-4 contact">
               <ul className="list-group">
                 <li className="list-group-item d-flex align-items-center">
-                  <i className="far fa-envelope fa-2x mr-3"></i>
+                  <i className="far fa-envelope fa-2x me-3"></i>
                   <h5>
                     Email:
-                    <a className="ml-2" href="mailto:neil.sgandhi@gmail.com">
+                    <a className="ms-2" href="mailto:neil.sgandhi@gmail.com">
                       neil.sgandhi@gmail.com
                     </a>
                   </h5>
                 </li>
                 <li className="list-group-item d-flex align-items-center">
-                  <i className="fas fa-mobile-alt fa-2x ml-1 mr-4"></i>
+                  <i className="fas fa-mobile-alt fa-2x ms-1 me-4"></i>
                   <h5>
-                    Phone: <span className="ml-2 info-color">404-488-6531</span>
+                    Phone: <span className="ms-2 info-color">404-488-6531</span>
                   </h5>
                 </li>
                 <li className="list-group-item d-flex align-items-center">
-                  <i className="fab fa-github fa-2x mr-3"></i>
+                  <i className="fab fa-github fa-2x me-3"></i>
                   <h5>
                     GitHub:
                     <a
-                      className="ml-2"
+                      className="ms-2"
                       href="https://github.com/ntch2000"
                       target="_blank"
                     >
@@ -45,11 +45,11 @@ const Contact = () => {
                   </h5>
                 </li>
                 <li className="list-group-item d-flex align-items-center">
-                  <i className="fab fa-linkedin fa-2x mr-4"></i>
+                  <i className="fab fa-linkedin fa-2x me-4"></i>
                   <h5>
                     LinkedIn:
                     <a
-                      className="ml-2"
+                      className="ms-2"
                       href="https://www.linkedin.com/in/neil-sgandhi
                       "
                       target="_blank"
@@ -59,18 +59,18 @@ const Contact = () => {
                   </h5>
                 </li>
                 <li className="list-group-item d-flex align-items-center">
-                  <i className="far fa-file fa-2x mr-4"></i>
+                  <i className="far fa-file fa-2x me-4"></i>
                   <h5>Resume:</h5>
                   <a
                     className="btn btn-info-color mx-3"
-                    href="./assets/resume/Gandhi_Neil_20201028.pdf"
+                    href="./assets/resume/Gandhi_Neil_Resume_WebDev_20210128.pdf"
                     target="_blank"
                   >
                     View
                   </a>
                   <a
                     className="btn btn-info-color"
-                    href="./assets/resume/Gandhi_Neil_20201028.pdf"
+                    href="./assets/resume/Gandhi_Neil_Resume_WebDev_20210128.pdf"
                     download="Gandhi_Neil_resume"
                     target="_blank"
                   >
