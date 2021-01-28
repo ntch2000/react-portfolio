@@ -11,8 +11,8 @@ const Header = () => {
       <button className="navbar-toggler" aria-label="Toggle navigation">
         <span
           className="navbar-toggler-icon"
-          data-toggle="collapse"
-          data-target="#navbarMenu"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
         ></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarMenu">

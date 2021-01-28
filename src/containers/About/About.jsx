@@ -18,8 +18,8 @@ const About = () => {
             <div className="col-12 pb-4">
               <img
                 src="./assets/images/bio-image.jpg"
-                className="bio-pic float-left"
-                alt="Biography Photo of Neil Gandhi"
+                className="bio-pic float-start"
+                alt="Neil Gandhi Profile"
               />
               <p>
                 I am a seasoned engineer with over 10 years of experience in
@@ -33,7 +33,7 @@ const About = () => {
                 When not developing applications, I keep busy with my newborn
                 daughters, my wife, and our dog. Currently we are in Charleston,
                 SC but are looking to move to either Houston, TX or Atlanta, GA
-                at the as soon as possible to be closer to family. I also enjoy
+                as soon as possible to be closer to family. I also enjoy
                 relaxing on a nice day and playing games during my free time.
               </p>
             </div>
@@ -46,50 +46,39 @@ const About = () => {
           </header>
           {/* <!-- Row below heading that contains the bio image as well at bio text -- both are in a single column with the image floated to the left to allow for text to wrap --> */}
 
-          <section className="container">
-            <div className="row row-cols-4">
-              <div className="col-1">
-                <i className="fab fa-html5 fa-2x mr-4"></i>
-              </div>
-              <div className="col-11 align-items-center">HTML5</div>
-              <div className="col-1">
-                <i className="fab fa-css3 fa-2x mr-4"></i>
-              </div>
-              <div className="col-11">CSS3</div>
-            </div>
-          </section>
-          {/* <section className="row">
+          <section className="row">
             <div className="col-12 pb-4">
               <ul className="list-group">
                 <li className="list-group-item d-flex align-items-center bg-dark">
-                  <i className="fab fa-html5 fa-2x mr-4"></i>HTML5
+                  <i className="fab fa-html5 fa-2x me-4"></i>HTML5
                 </li>
                 <li className="list-group-item d-flex align-items-center bg-dark">
-                  <i className="fab fa-css3 fa-2x mr-4"></i>CSS3
+                  <i className="fab fa-css3 fa-2x me-4"></i>CSS3
                 </li>
                 <li className="list-group-item d-flex align-items-center bg-dark">
-                  <i className="fab fa-js-square fa-2x mr-4"></i>JavaScript
+                  <i className="fab fa-js-square fa-2x me-4"></i>JavaScript
                   (Vanilla, jQuery, ES6+)
                 </li>
                 <li className="list-group-item d-flex align-items-center bg-dark">
-                  <i className="fab fa-bootstrap fa-2x mr-4"></i>Bootstrap 4
+                  <i className="fab fa-bootstrap fa-2x me-4"></i>Bootstrap 4/5
                 </li>
                 <li className="list-group-item d-flex align-items-center bg-dark">
-                  <i className="fab fa-node fa-2x mr-4"></i>Node.js
+                  <i className="fab fa-node fa-2x me-3"></i>Node.js (Express,
+                  Express-Handlebars)
                 </li>
                 <li className="list-group-item d-flex align-items-center bg-dark">
-                  <i className="fab fa-github fa-2x mr-4"></i>GitHub
-                </li>
-                <li className="list-group-item d-flex align-items-center bg-dark">
-                  <i className="fas fa-database fa-2x mr-4"></i>Databases
+                  <i className="fas fa-database fa-2x me-4"></i>Databases
                   (MySQL, MongoDB)
                 </li>
                 <li className="list-group-item d-flex align-items-center bg-dark">
-                  <i className="fab fa-react fa-2x mr-4"></i>React.js
+                  <i className="fab fa-react fa-2x me-4"></i>React.js
+                </li>
+                <li className="list-group-item d-flex align-items-center bg-dark">
+                  <i className="fab fa-github fa-2x me-4"></i>GitHub
                 </li>
               </ul>
             </div>
-          </section> */}
+          </section>
         </article>
       </div>
     </main>

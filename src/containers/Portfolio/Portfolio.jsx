@@ -21,6 +21,7 @@ const Portfolio = () => {
                   "Web application for prospective college students to search cities and/or schools for University details and city quality of life metrics."
                 }
                 image={"./assets/gifs/search-u-gif.gif"}
+                alt="SearchU Gif"
               />
               <Project
                 title={"Weather Dashboard"}
@@ -28,6 +29,7 @@ const Portfolio = () => {
                   "Application dashboard to search for current weather data for selected cities."
                 }
                 image={"./assets/images/weather-dashboard-screenshot.jpg"}
+                alt={"Weather Dashboard Application Image"}
               />
               <Project
                 title={"Food Truck Chasers"}
@@ -35,6 +37,7 @@ const Portfolio = () => {
                   "Full CRUD application that allows users to search for Food Trucks in their city. This application also allows for truck operators to create, manage, and update their Food Trucks"
                 }
                 image={"./assets/images/food-truck-chasers2.jpg"}
+                alt={"Food Truck Chasers Application Image"}
               />
             </section>
           </div>
