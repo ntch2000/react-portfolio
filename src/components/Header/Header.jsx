@@ -18,14 +18,11 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="navbarMenu">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <NavLink
-              to="/contact"
-              className="nav-link"
-              activeClassName="active"
-            >
-              Contact
+            <NavLink to="/about" className="nav-link" activeClassName="active">
+              About
             </NavLink>
           </li>
+
           <li className="nav-item">
             <NavLink
               to="/portfolio"
@@ -36,8 +33,12 @@ const Header = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/about" className="nav-link" activeClassName="active">
-              About
+            <NavLink
+              to="/contact"
+              className="nav-link"
+              activeClassName="active"
+            >
+              Contact
             </NavLink>
           </li>
         </ul>

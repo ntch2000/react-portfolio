@@ -10,7 +10,16 @@ const Project = (props) => {
         <p className="card-text">{props.description}</p>
       </div>
       <div className="card-footer text-center">
-        <button className="btn btn-info-color">Project Details</button>
+        <a href={props.appUrl} class="btn btn-info-color mx-2" target="_blank">
+          Application
+        </a>
+        <a
+          href={props.githubUrl}
+          class="btn btn-info-color mx-2"
+          target="_blank"
+        >
+          Github Repository
+        </a>
       </div>
     </div>
   );

@@ -22,6 +22,8 @@ const Portfolio = () => {
                 }
                 image={"./assets/gifs/search-u-gif.gif"}
                 alt="SearchU Gif"
+                appUrl={"https://ntch2000.github.io/searchu-project1/"}
+                githubUrl={"https://github.com/ntch2000/searchu-project1"}
               />
               <Project
                 title={"Weather Dashboard"}
@@ -30,6 +32,8 @@ const Portfolio = () => {
                 }
                 image={"./assets/images/weather-dashboard-screenshot.jpg"}
                 alt={"Weather Dashboard Application Image"}
+                appUrl={"https://ntch2000.github.io/weather-dashboard/"}
+                githubUrl={"https://github.com/ntch2000/weather-dashboard"}
               />
               <Project
                 title={"Food Truck Chasers"}
@@ -38,6 +42,8 @@ const Portfolio = () => {
                 }
                 image={"./assets/images/food-truck-chasers2.jpg"}
                 alt={"Food Truck Chasers Application Image"}
+                appUrl={"https://glacial-ocean-57671.herokuapp.com/"}
+                githubUrl={"https://github.com/ntch2000/FoodTruck-Chasers"}
               />
             </section>
           </div>
