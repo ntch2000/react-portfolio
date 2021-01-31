@@ -8,7 +8,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Header />
       <Switch>
         <Route path="/about" component={About} />
